@@ -1,0 +1,369 @@
+/*.header-text {
+  margin: auto;
+  color:#ffffff;
+  display: none;
+    
+}*/
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.header-text {
+  margin: auto;
+  color:#ffffff;
+  display: none;
+  
+}
+
+.nav-item-contact{
+  background-color: #a82b2b;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.button {
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #a82b2b;
+  color: white;
+  font-size: 16px;
+  padding: 15px 32px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left:100px;
+  margin-bottom: 200px;
+}
+
+.button:hover {
+  background-color: #4b0707;
+}
+
+#skippy-logo{
+  margin-bottom: 10px;
+}
+
+#navbar {
+  position: absolute;
+  width: 100%;
+  
+}
+
+.container-fluid {
+  color: black;
+}
+
+
+/*.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll 
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll 
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll 
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}*/
+
+@media(max-width:978px){
+  .nav-item-contact{
+    background-color: transparent;
+    margin-left: 0;
+  }
+
+}
+
+
+.header-img{
+  background-image: linear-gradient(#00000080, #00000080), url("/img/groepsfoto_kamp_2022.JPG");
+  height: 500px;
+  background-position: 50% 37%;;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+      
+}
+  
+.header-pasta{
+  background-image: linear-gradient(#00000080, #00000080), url("/img/pasta.jpg");
+  height: 250px;
+  background-position: 50% 60%;;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+}
+
+.header-wijn{
+  background-image: linear-gradient(#00000080, #00000080), url("/img/wijn.jpg");
+  height: 250px;
+  background-position: 50% 30%;;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+}
+
+.header-over-ons{
+  background-image: linear-gradient(#00000080, #00000080), url("/img/DSC_0900.JPG");
+  height: 450px;
+  background-position: 50% 42%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+}
+  
+.header-text {
+    
+  display: block;
+    
+}
+  
+.inschrijving {
+  background-image:linear-gradient(#00000080, #00000080) ,url('/img/1.JPG');
+  height: 300px; 
+  
+    /* scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.inschrijving-text {
+  padding: 25px 50px 75px 20px;
+  color: #ffffff;
+}
+
+#navbar {
+  background: transparent;
+}
+
+
+
+.shell-body {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  
+}
+
+.intro, .evenementen{
+  padding: 25px 50px 75px 20px;
+  
+}
+
+.over-ons-text{
+  padding: 25px 50px 75px 0px;
+  margin-bottom: 0px;
+}
+
+.lijst-regels{
+  margin-top: -20px;
+  margin-left: 55px;
+}
+
+
+
+h2, p{
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+ul{
+  font-size: 1.1em;
+}
+
+p{
+  font-size: 1.2em;
+}
+
+a[href^="tel:"] {
+  margin-bottom: 20px;
+  margin-left: 60px;
+  font-size: 1.2em;
+}
+
+
+
+
+
+footer{
+  text-align: center;
+  color: #fff;
+  background-color: #2e2c2c;
+  width: 100%;
+  height: 100px;
+  margin-top: auto;
+}
+
+.btn-floating, [class*="btn-outline-"].btn-floating {
+  border-radius: 50%;
+  
+  position: relative;
+}
+.btn-floating {
+  width: 2.3125rem;
+  height: 2.3125rem;
+}
+.btn-outline-light {
+  color: #fbfbfb;
+  border-color: #fbfbfb;
+}
+
+.mb-4{
+  background-color: #2e2c2c!important;
+  padding-top: 0!important;
+  margin-bottom: 0!important;
+}
+
+#demo {
+  
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+
+.hoofdleiding {
+  display: grid;
+  grid-template-columns: 100px 100px; 
+  grid-template-rows: 100px;
+  grid-column-gap: 5px;
+}
+
+
+
+.mail-verhuur{
+  text-align: center;
+}
+
+.col-md-6 > p, .col-md-4 > p{
+  margin-bottom: 0;
+}
+
+.col-md-6, .col-md-4{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.hoofdleiding-mail{
+  text-align: center;
+}
+
+h1{
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.row{
+  margin-right: 60px;
+}
+
+div[class^="container-"]{
+  position: relative;
+}
+
+.column-map{
+  -ms-flex: 45%;
+  flex: 45%;
+  max-width: 45%;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 30%;
+  flex: 30%;
+  max-width: 30%;
+  padding: 0 4px;
+}
+
+.middel {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+div[class^="container-"]:hover img[class$="-map"] {
+  opacity: 0.5;
+}
+
+div[class^="container-"]:hover .middel {
+  opacity: 1;
+}
+
+
+
+.leidingsfoto-sloeber {
+  position: relative;
+}
+
+.leidingsfoto-overlay-sloeber{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #79077a;
+}
+
+/*.leidingsfoto-overlay-speelclub{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #6e7a07;
+}*/
+
+div[class^="leidingsfoto-"]:hover div[class^="leidingsfoto-overlay-"] {
+  opacity: 0.7;
+}
+
+.link-leiding {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.link-leiding:hover {
+  color: #fff;
+}
